@@ -170,15 +170,15 @@
 
    ```mermaid
    flowchart TD
-    a["`untracked
-    (неотслеживаемый)`"] -- git add --> b["`staged
+    a["untracked
+    (неотслеживаемый)"] -- git add --> b["staged
     (в списке на коммит)
-    + tracked`"]
-    b & d -- Изменения --> c["`modified
-    (изменённый)`"]
+    + tracked"]
+    b & d -- Изменения --> c["modified
+    (изменённый)"]
     c -- git add --> b
-    b -- git commit --> d["`tracked
-    (отслеживаемый)`"]
+    b -- git commit --> d["tracked
+    (отслеживаемый)"]
    ```
 
 
